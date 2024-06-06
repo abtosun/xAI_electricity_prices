@@ -1,0 +1,38 @@
+.
+├── ckpt.zip                                        # Model checkpoints
+├── environment.yml                                 # Environment configuration file
+├── Learning.ipynb                                  # Jupyter notebook for learning experiments
+├── Learning.py                                     # Python script for learning experiments
+├── README.md                                       # The main documentation file for the project
+├── results                                         # Directory for storing result files
+│   └── evaluation_metrics_results.csv              # CSV file containing evaluation metrics results
+├── sample_data                                     # Directory for storing sample data files
+│   ├── belgium
+│   │   └── aggregated_dataframe_belgium.csv        # Aggregated data for Belgium
+│   ├── france
+│   │   └── aggregated_dataframe_france.csv         # Aggregated data for France
+│   ├── germany
+│   │   └── aggregated_dataframe_germany.csv        # Aggregated data for Germany
+│   ├── netherlands
+│   │   └── aggregated_dataframe_netherlands.csv    # Aggregated data for Netherlands
+│   └── spain
+│       └── aggregated_dataframe_spain.csv          # Aggregated data for Spain
+├── src                                             # Source code directory containing scripts and modules
+│   ├── config.py                                   # Configuration file for the project
+│   ├── data_prepare.py                             # Data preparation script
+│   ├── __init__.py                                 # Init file for the src module
+│   └── models                                      # Directory for model-related scripts
+│       ├── activation
+│       │   ├── exu.py                              # EXU activation function
+│       │   ├── __init__.py                         # Init file for activation functions
+│       │   └── relu.py                             # ReLU activation function
+│       ├── base.py                                 # Base model script
+│       ├── DNN.py                                  # Deep Neural Network model script
+│       ├── featurenn.py                            # Feature neural network script
+│       ├── __init__.py                             # Init file for the models module
+│       ├── LSTM.py                                 # Long Short-Term Memory model script
+│       ├── model_selector.py                       # Model selection script
+│       ├── natm.py                                 # NATM model script
+│       └── SCINet.py                               # SCINet model script
+├── structure.txt                                   # File containing the project structure
+└── Visualization.ipynb                             # Jupyter notebook for visualization experiments
