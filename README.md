@@ -153,6 +153,8 @@ You can access the pretrained model weights and logs of NATMs in the `ckpt.zip` 
 
 All evaluation metrics of the experiments can be found in the `results` folder named as [`evaluation_metrics_results.csv`](results/evaluation_metrics_results.csv). This file provides detailed metrics for each experiment, allowing for easy reproduction and analysis of the results. 
 
+Additionally, the `results` folder contains a [`hyper-parameter_analysis`](results/hyper-parameter_analysis) subdirectory with detailed analyses of various hyper-parameters used in the experiments.
+
 ## Project structure
 
 The project has a following structure:
@@ -164,7 +166,11 @@ The project has a following structure:
 ├── Learning.py                                     # Python script for learning experiments
 ├── README.md                                       # The main documentation file for the project
 ├── results                                         # Directory for storing result files
-│   └── evaluation_metrics_results.csv              # CSV file containing evaluation metrics results
+│   ├── evaluation_metrics_results.csv              # CSV file containing evaluation metrics results
+│   └── hyper-parameter_analysis                    # Directory for storing hyper-parameter analysis results
+│       ├── dropout_regularization.csv              # CSV file for dropout regularization results
+│       ├── Hidden_sizes.csv                        # CSV file for hidden sizes analysis
+│       └── layer_weight_combinations.csv           # CSV file for layer weight combinations
 ├── sample_data                                     # Directory for storing sample data files
 │   ├── belgium
 │   │   └── aggregated_dataframe_belgium.csv        # Aggregated data for Belgium

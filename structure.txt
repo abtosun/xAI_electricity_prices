@@ -5,7 +5,11 @@
 ├── Learning.py                                     # Python script for learning experiments
 ├── README.md                                       # The main documentation file for the project
 ├── results                                         # Directory for storing result files
-│   └── evaluation_metrics_results.csv              # CSV file containing evaluation metrics results
+│   ├── evaluation_metrics_results.csv              # CSV file containing evaluation metrics results
+│   └── hyper-parameter_analysis                    # Directory for storing hyper-parameter analysis results
+│       ├── dropout_regularization.csv              # CSV file for dropout regularization results
+│       ├── Hidden_sizes.csv                        # CSV file for hidden sizes analysis
+│       └── layer_weight_combinations.csv           # CSV file for layer weight combinations
 ├── sample_data                                     # Directory for storing sample data files
 │   ├── belgium
 │   │   └── aggregated_dataframe_belgium.csv        # Aggregated data for Belgium
